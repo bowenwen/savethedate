@@ -5,7 +5,7 @@
       <%= t :wedding_date %>, <%= t :wedding_location %>
     </p>
     <p>
-      <%= link_to 'REQUEST INVITE', new_guest_path, class: 'btn btn-primary wedding-cta-btn' %>
+      <%= link_to 'REQUEST INVITE', new_guest_path, :title => 'Save the date and we will keep you updated!', "data-placement" => "bottom", 'data-toggle' => 'tooltip', class: 'btn btn-primary wedding-cta-btn' %>
     </p>
   </div>
   <style>
