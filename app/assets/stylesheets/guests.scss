@@ -7,8 +7,20 @@
     image-url("rsvp.jpg") center center no-repeat;
   background-size: cover;
 
-  h1 {
+  * {
     color: rgba(255, 255, 255, 0.95);
+  }
+
+  h1 {
+    text-transform: none;
+    // font-variant: small-caps; 
+  }
+
+  .leader-date {
+    font-size: 17px;
+    letter-spacing: 4px;
+    padding: 12pt;
+    text-transform: uppercase;
   }
 }
 
